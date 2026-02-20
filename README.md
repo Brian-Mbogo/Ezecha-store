@@ -18,6 +18,8 @@ Live Laravel link: [ezecha-store.vercel.app](https://ezecha-store.vercel.app)
 - Responsive desktop/mobile menu with toggle button.
 - Hero section with call-to-action.
 - Product grid with equal-height cards and aligned buttons.
+- About section with project/store description.
+- Contact section with a styled form (name, email, message).
 - Product image hover animation.
 - Footer with social links placeholders.
 
@@ -41,7 +43,7 @@ ezecha/
 
 ## File-by-File Description
 
-- `index.html`: Main page structure and content. Contains header/nav, hero section, product cards, footer, and JavaScript for mobile menu behavior.
+- `index.html`: Main page structure and content. Contains header/nav, hero section, product cards, about section, contact form section, footer, and JavaScript for mobile menu and front-end form behavior.
 - `css/style.css`: Custom styles for smooth scrolling and product image hover animation.
 - `images/logo.png`: Brand logo displayed in the navbar.
 - `images/product1.jpg`: Product card image for Wireless Headphones.
@@ -60,4 +62,5 @@ ezecha/
 
 ## Notes
 
-- Navigation links for `#about` and `#contact` are present in the menu, but dedicated sections are not currently included in `index.html`.
+- The navigation menu links to `#home`, `#products`, `#about`, and `#contact`, and all sections are now implemented in `index.html`.
+- The contact form currently uses front-end handling only (no backend/API submission yet).
