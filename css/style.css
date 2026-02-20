@@ -4,8 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Add simple hover animation to product images */
-img:hover {
-  transform: scale(1.05);
+/* Add simple hover animation to product images only */
+.product-card img {
   transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+  transform: scale(1.05);
 }
